@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { withRouter } from "react-router-dom";
-import { Link } from "react-router-dom";
 import { notification } from "../../config/notification";
 import { useAuth } from "../../authContext/AuthState";
 import { Loading } from "../../config/loading";
